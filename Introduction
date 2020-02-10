@@ -1,0 +1,58 @@
+OpenShift is a combination of Enterprise kubernetes and Docker.
+
+OpenShift is a RedHat enterprise Platform As A Service(PAAS) components.
+
+Self service platform like pivotal cloud foundry
+
+Support Develop, deploy and manage containerised applications
+
+Kubernetes manages containers on clusters and docker manages deployable images 
+
+kubernetes
+kubernetes is an opensource system for automating deployment, scaling and management of containerised application.
+
+Kubernetes provide cluster management and orchestrate containers on multiple host.
+
+Docker
+docker provide an abstraction for packaging and creating linux based lightweight container images.
+
+Core concepts of OpenShift:
+Containers and images: Building blocks for deploying your application.
+
+Pods and Services: Allows container can communicate to each others in proxy connections.
+
+Projects and Users: Provide space and users
+
+Build and image streams: Allow you to build working images and react to new images
+
+Deployments: Deployment life cycle
+
+Routes: Exposing modules API
+
+Templates: Allow you to create many objects
+
+Source code management:Build and deployment for developers
+
+Image management:Managing and promoting images scale and upload to the system.
+
+Rest API management: Which expose each of the core objects
+
+Controller management: Controller which reads those API apply changes the other objects
+
+Automation life cycle management: Automatically apply changes to source code and version control
+
+User interface management: Web front end for deploying and managing their applications.
+
+Supporting languages: Java, node.js ,ruby, perl and php directly from RedHat and many others from partners.
+
+OpenShift for CBX product:
+CBX OpenShift cluster running on AWS with one Master node and multiple worker nodes.
+
+How to deploy CBX products on OpenShift:
+We can't deploy jar and npm packages directly on OpenShift like PCF so
+
+Tested artifacts can be packed as a deployable docker images.
+
+Then create manifest files and deploy on OpenShift.
+
+     "Deep dive in progress"
